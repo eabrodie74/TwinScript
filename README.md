@@ -74,7 +74,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
    - Under **Customize** you can untick **Fonts for rare characters**: Jigmo and Plangothic, about 100 MB, installed into `/Library/Fonts` so every app on your Mac can show characters macOS has no font for. TwinScript itself works without them.
 3. Open **TwinScript** from Applications. A short welcome tour shows the main features. You can open it again any time from **Help › Welcome Tour**.
 
-**Requirements:** macOS 12 Monterey or later on an Apple silicon Mac. Building the dictionary extras uses Python 3, which macOS offers to install (with the Command Line Tools) the first time it's needed.
+**Requirements:** macOS 12 Monterey or later on an Apple silicon Mac.
 
 ## First steps
 
@@ -111,7 +111,7 @@ You only do this once. The extension updates itself whenever TwinScript updates.
 
 ## Dictionary extras
 
-The app comes with everything needed for conversion and romanization. The Dictionary's larger sources are downloaded when you want them: Wiktionary (about 1.2 GB), example sentences, learner levels, stroke order, the character finder, technical terms, Cantonese and names. Get them in **Settings › Plugins**, one at a time with **Download** or all at once with **Download All Extras**. **Check for Updates** keeps them current, and the switch to new data happens without a restart.
+The app comes with everything needed for conversion and romanization. The Dictionary's data is a separate download of about 520 MB: Wiktionary and CC-CEDICT, the Ministry of Education's dictionaries, Cantonese, technical terms, names, example sentences, learner levels, stroke order and the character finder. Open the **Dictionary** and click **Download the Dictionary**, or pick pieces in **Settings › Plugins** (**Download**, or **Download All Extras**). They arrive ready to use: nothing is built on your Mac. **Check for Updates** keeps them current, and new data is used without a restart.
 
 ## Updates
 

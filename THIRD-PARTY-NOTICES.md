@@ -31,7 +31,7 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 **Notes**
 
 - **Bundled with the app:** OpenCC, jieba, CC-CEDICT, Unihan, rime-cantonese, ChhoeTaigi, the Hakka Sixian dictionary, Wikipedia's regional term lists, Common Voice and Hanzi Writer, as compiled data.
-- **Downloaded only when you choose to,** in Settings › Plugins: Wiktionary, NAER terms, the Ministry of Education dictionaries, CC-Canto, Wikipedia names, learner word lists, Tatoeba sentences, Make Me a Hanzi and HanziLookup, and the fonts. Each is downloaded from its own source and keeps its own license. HanziLookup (GPL 3) runs as a separate script inside the Dictionary page.
+- **Downloaded only when you choose to** (the Dictionary's Download button, or Settings › Plugins): Wiktionary, NAER terms, the Ministry of Education dictionaries, CC-Canto, Wikipedia names, learner word lists, Tatoeba sentences, Make Me a Hanzi and HanziLookup, and the fonts. They come ready to use from this repository's [Dictionary data](https://github.com/eabrodie74/TwinScript/releases/tag/data) release, compiled from those sources unchanged in content, and each keeps its own license. **Check for Updates** can rebuild them from the sources themselves. HanziLookup (GPL 3) runs as a separate script inside the Dictionary page, with its license beside it.
 - **甘字典 (Kam Jitian)** readings, used for single Taiwanese characters, are CC BY-NC-SA 3.0 TW: non-commercial use only.
 - **Ministry of Education** dictionary content (CC BY-ND 3.0 TW) is shown as published, without changes.
 - **Share-alike sources** (CC-CEDICT, Wiktionary, Wikipedia, CC-Canto): TwinScript's derived dictionary files are available under the same licenses.
