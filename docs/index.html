@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TwinScript for Mac</title>
+<meta name="description" content="Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary for the Mac.">
+<link rel="icon" href="images/icon.png">
+<style>
+:root { --ink: #1d1d1f; --sub: #6e6e73; --bg: #fbfbfd; --card: #fff; --line: rgba(0,0,0,.08); --trad: #c0392b; --simp: #2b5fa8; --roman: #1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --ink: #f5f5f7; --sub: #a1a1a6; --bg: #111113; --card: #1c1c1f; --line: rgba(255,255,255,.1); --trad: #ff6b5a; --simp: #7aa7ff; --roman: #62d394; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "PingFang TC", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+header { text-align: center; padding: 72px 0 40px; }
+header img.icon { width: 112px; height: 112px; }
+h1 { font-size: 52px; letter-spacing: -.02em; margin: 14px 0 6px; }
+.tag { font-size: 26px; font-weight: 600; margin: 0; }
+.tag .t { color: var(--trad); } .tag .s { color: var(--simp); } .tag .r { color: var(--roman); }
+.lead { color: var(--sub); font-size: 19px; max-width: 680px; margin: 14px auto 28px; }
+.btn { display: inline-block; background: #0071e3; color: #fff; text-decoration: none; font-weight: 600; padding: 13px 26px; border-radius: 980px; font-size: 17px; }
+.btn:hover { background: #0077ed; }
+.meta { color: var(--sub); font-size: 13px; margin-top: 12px; }
+.shot { width: 100%; border-radius: 14px; box-shadow: 0 20px 60px rgba(0,0,0,.25); display: block; margin: 0 auto; }
+section { padding: 56px 0 8px; }
+h2 { font-size: 32px; letter-spacing: -.01em; margin: 0 0 8px; text-align: center; }
+.sub { color: var(--sub); text-align: center; margin: 0 auto 28px; max-width: 640px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; }
+.card h3 { margin: 0 0 6px; font-size: 18px; }
+.card p { margin: 0; color: var(--sub); font-size: 15px; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.two img { width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+.steps { counter-reset: s; list-style: none; padding: 0; max-width: 720px; margin: 0 auto; }
+.steps li { counter-increment: s; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px 16px 62px; margin-bottom: 10px; position: relative; }
+.steps li::before { content: counter(s); position: absolute; left: 20px; top: 15px; width: 28px; height: 28px; border-radius: 50%; background: #0071e3; color: #fff; font-weight: 700; text-align: center; line-height: 28px; font-size: 14px; }
+footer { color: var(--sub); font-size: 13px; text-align: center; padding: 56px 0 40px; }
+footer a, .sub a { color: inherit; }
+@media (max-width: 720px) { h1 { font-size: 40px; } .two { grid-template-columns: 1fr; } header { padding-top: 48px; } }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <img class="icon" src="images/icon.png" alt="">
+  <h1>TwinScript</h1>
+  <p class="tag"><span class="t">繁</span> ⇄ <span class="s">简</span> ⇄ <span class="r">拼</span></p>
+  <p class="lead">Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary, for documents, file names, music, web pages and everything you copy.</p>
+  <a class="btn" href="https://github.com/eabrodie74/TwinScript/releases/latest">Download for Mac</a>
+  <div class="meta">Free · macOS 12 or later · Apple silicon · signed and notarized by Apple</div>
+</header>
+
+<div class="wrap"><img class="shot" src="images/home.png" alt="TwinScript"></div>
+
+<section class="wrap">
+  <h2>Convert anything with Chinese in it</h2>
+  <p class="sub">Words, not just characters: 头发 becomes 頭髮 and 发展 becomes 發展, in Taiwan or Hong Kong style.</p>
+  <div class="grid">
+    <div class="card"><h3>Documents</h3><p>Word, Excel, PowerPoint, OpenDocument, EPUB, RTF and PDF keep their formatting. Text in any old encoding is read automatically.</p></div>
+    <div class="card"><h3>File and folder names</h3><p>Preview every new name. ⌘Z undoes a rename, and renaming back from Pinyin gives the characters back.</p></div>
+    <div class="card"><h3>Music</h3><p>MP3, M4A, FLAC, APE and Ogg tags and lyrics, your Apple Music library, and lyrics from six sources.</p></div>
+    <div class="card"><h3>Pictures and scans</h3><p>Text in images and scanned PDFs is read on your Mac and saved as converted text.</p></div>
+    <div class="card"><h3>Twelve romanizations</h3><p>Pinyin, Zhuyin, Jyutping, Yale, Tâi-lô, POJ, Hakka and more, above, below or beside the characters.</p></div>
+    <div class="card"><h3>Everywhere</h3><p>Finder's right-click menu, keyboard shortcuts, automatic clipboard conversion and watch folders.</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Learn as you read</h2>
+  <p class="sub">An offline dictionary with readings in Mandarin, Cantonese, Taiwanese and Hakka, a reader with the reading over every word, and flashcards.</p>
+  <div class="two">
+    <img src="images/dictionary.png" alt="Dictionary">
+    <img src="images/reader-zhuyin.png" alt="Reader with Zhuyin">
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>On the web, too</h2>
+  <p class="sub">Chrome and Safari extensions convert pages with readings, show meanings on hover, and send words to your Study List.</p>
+  <div class="two">
+    <img src="images/chrome-readings.png" alt="Readings over a web page">
+    <img src="images/interface-traditional.png" alt="Interface in Traditional Chinese">
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Install</h2>
+  <ol class="steps">
+    <li>Download <b>TwinScript-1.0.pkg</b> from the <a href="https://github.com/eabrodie74/TwinScript/releases/latest">latest release</a>.</li>
+    <li>Open it and follow the installer. Under Customize you can untick the optional fonts for rare characters.</li>
+    <li>Open TwinScript from Applications. The welcome tour shows you around.</li>
+    <li>Optional: get the Dictionary's extras in Settings › Plugins, and set up the browser extension (see the <a href="https://github.com/eabrodie74/TwinScript#chrome-and-safari">guide</a>).</li>
+  </ol>
+</section>
+
+<footer class="wrap">
+  Everything runs on your Mac. No accounts, no tracking.<br>
+  <a href="https://github.com/eabrodie74/TwinScript#readme">Documentation</a> ·
+  <a href="https://github.com/eabrodie74/TwinScript/blob/main/THIRD-PARTY-NOTICES.md">Credits and licenses</a> ·
+  <a href="https://github.com/eabrodie74/TwinScript/issues">Report a problem</a><br><br>
+  © 2026 Evan Brodie
+</footer>
+</body>
+</html>
