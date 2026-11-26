@@ -2,16 +2,16 @@
 
 <h1 align="center">TwinScript</h1>
 
-<p align="center"><b>繁 ⇄ 简 ⇄ 拼</b> &nbsp;·&nbsp; Traditional and Simplified Chinese, twelve romanizations, and a full Chinese–English dictionary, for the Mac.</p>
+<p align="center">Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary, for the Mac.</p>
 
 <p align="center">
   <a href="https://github.com/eabrodie74/TwinScript/releases/latest"><b>⬇︎ Download TwinScript for Mac</b></a>
   &nbsp;·&nbsp; free &nbsp;·&nbsp; macOS 12 or later &nbsp;·&nbsp; Apple silicon &nbsp;·&nbsp; signed and notarized by Apple
 </p>
 
-![TwinScript home](docs/images/home.png)
+![TwinScript Home](docs/images/home.png)
 
-TwinScript converts Chinese between Traditional and Simplified, and writes it in Pinyin, Zhuyin, Jyutping, Tâi-lô, Hakka and seven other romanizations. It works on documents (keeping their formatting), file and folder names, song tags and lyrics, the clipboard, web pages in Chrome and Safari, and pictures. It also has an offline Chinese–English dictionary, a reader that puts the reading over every word, and a study list with flashcards.
+TwinScript converts Chinese between Traditional and Simplified, and writes it in Pinyin, Zhuyin, Jyutping, Tâi-lô, Hakka and seven other romanizations. It works on documents (keeping their formatting), file and folder names, song tags and lyrics, the clipboard, web pages in Chrome and Safari, and pictures. It also has an offline Chinese–English dictionary, a reader that puts the reading over every word, and a study list with flashcards and drills.
 
 ## Contents
 
@@ -27,6 +27,10 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - [Credits and licenses](#credits-and-licenses)
 
 ## Features
+
+### Home
+- **Your day in one place:** words due for review, a word of the day, Quick Convert for a line of text, your recent searches and files, watch folders and the clipboard. **Customize** rearranges and resizes the cards.
+- **⌘K** opens one box to go to any page, run any action or look up a word.
 
 ### Convert anything with Chinese in it
 - **Documents keep their formatting:** Word, Excel, PowerPoint, OpenDocument, EPUB, RTF and PDF come out in the same format.
@@ -58,7 +62,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - **Look up anywhere:** press ⌃⌥⌘L and drag over Chinese anywhere on screen, even in pictures and videos; or select Chinese in any app and choose **Services › Look Up in TwinScript**, or ⌥-click a word in a TwinScript preview.
 - **Reader:** paste or open any text to see the reading over every word (Zhuyin goes beside each character, the Taiwanese way). Hover for the meaning, underline words by learner level, read it aloud, and save it as a PDF.
 
-<img src="docs/images/reader-zhuyin.png" alt="Reader with Zhuyin">
+<img src="docs/images/reader.png" alt="Reader with readings over every word">
 
 - **Study List:** star words anywhere. Review them as flashcards with spaced repetition, practise writing them stroke by stroke, drill listening, pinyin and tones toward a daily goal, or export them to Anki.
 
@@ -68,7 +72,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - **Watch folders:** new files that land in a folder are converted on their own.
 - **Interface in English, 繁體中文 or 简体中文** (Settings › General).
 
-<img src="docs/images/interface-traditional.png" alt="TwinScript in Traditional Chinese">
+<img src="docs/images/study-traditional.png" alt="Study List, with the interface in Traditional Chinese">
 
 ## Install
 
@@ -98,8 +102,6 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 The full guide is in **Help › TwinScript Help** inside the app.
 
 ## Chrome and Safari
-
-<img src="docs/images/chrome-readings.png" alt="Readings over a web page">
 
 On any web page you can convert to Traditional or Simplified with or without readings, show the reading and meaning only on hover, underline words by level, read aloud, ⌥-click a word to open it in TwinScript, and add words to your Study List. Everything runs through TwinScript on your Mac.
 

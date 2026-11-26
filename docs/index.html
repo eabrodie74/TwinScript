@@ -7,7 +7,7 @@
 <meta name="description" content="Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary for the Mac.">
 <link rel="icon" href="images/icon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="TwinScript for Mac: 繁 ⇄ 简 ⇄ 拼">
+<meta property="og:title" content="TwinScript for Mac">
 <meta property="og:description" content="Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary for the Mac. Free.">
 <meta property="og:image" content="https://eabrodie74.github.io/TwinScript/images/social.png">
 <meta property="og:url" content="https://eabrodie74.github.io/TwinScript/">
@@ -19,15 +19,14 @@
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "PingFang TC", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
 header { text-align: center; padding: 72px 0 40px; }
-header img.icon { width: 112px; height: 112px; }
+header img.icon { width: 148px; height: 148px; }
 h1 { font-size: 52px; letter-spacing: -.02em; margin: 14px 0 6px; }
-.tag { font-size: 26px; font-weight: 600; margin: 0; }
-.tag .t { color: var(--trad); } .tag .s { color: var(--simp); } .tag .r { color: var(--roman); }
 .lead { color: var(--sub); font-size: 19px; max-width: 680px; margin: 14px auto 28px; }
 .btn { display: inline-block; background: #0071e3; color: #fff; text-decoration: none; font-weight: 600; padding: 13px 26px; border-radius: 980px; font-size: 17px; }
 .btn:hover { background: #0077ed; }
 .meta { color: var(--sub); font-size: 13px; margin-top: 12px; }
-.shot { width: 100%; border-radius: 14px; box-shadow: 0 20px 60px rgba(0,0,0,.25); display: block; margin: 0 auto; }
+.shot { width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.22); display: block; margin: 0 auto; }
+.caption { font-size: 15px; margin-top: 18px; }
 section { padding: 56px 0 8px; }
 h2 { font-size: 32px; letter-spacing: -.01em; margin: 0 0 8px; text-align: center; }
 .sub { color: var(--sub); text-align: center; margin: 0 auto 28px; max-width: 640px; }
@@ -49,13 +48,13 @@ footer a, .sub a { color: inherit; }
 <header class="wrap">
   <img class="icon" src="images/icon.png" alt="">
   <h1>TwinScript</h1>
-  <p class="tag"><span class="t">繁</span> ⇄ <span class="s">简</span> ⇄ <span class="r">拼</span></p>
   <p class="lead">Traditional and Simplified Chinese, twelve romanizations and a full Chinese–English dictionary, for documents, file names, music, web pages and everything you copy.</p>
   <a class="btn" href="https://github.com/eabrodie74/TwinScript/releases/latest">Download for Mac</a>
   <div class="meta">Free · macOS 12 or later · Apple silicon · signed and notarized by Apple</div>
 </header>
 
-<div class="wrap"><img class="shot" src="images/home.png" alt="TwinScript"></div>
+<div class="wrap"><img class="shot" src="images/home.png" alt="TwinScript Home"></div>
+<p class="sub caption wrap">Home: words to review, a word of the day, Quick Convert, recent searches and files. <b>⌘K</b> goes to any page, runs any action or looks up a word.</p>
 
 <section class="wrap">
   <h2>Convert anything with Chinese in it</h2>
@@ -63,7 +62,7 @@ footer a, .sub a { color: inherit; }
   <div class="grid">
     <div class="card"><h3>Documents</h3><p>Word, Excel, PowerPoint, OpenDocument, EPUB, RTF and PDF keep their formatting. Text in any old encoding is read automatically.</p></div>
     <div class="card"><h3>File and folder names</h3><p>Preview every new name. ⌘Z undoes a rename, and renaming back from Pinyin gives the characters back.</p></div>
-    <div class="card"><h3>Music</h3><p>MP3, M4A, FLAC, APE and Ogg tags and lyrics, your Apple Music library, and lyrics from six sources.</p></div>
+    <div class="card"><h3>Music</h3><p>MP3, M4A, FLAC, APE and Ogg tags and lyrics, your Apple Music library, pinyin sort names, and lyrics from six sources that play along with the song.</p></div>
     <div class="card"><h3>Pictures and scans</h3><p>Text in images and scanned PDFs is read on your Mac and saved as converted text.</p></div>
     <div class="card"><h3>Twelve romanizations</h3><p>Pinyin, Zhuyin, Jyutping, Yale, Tâi-lô, POJ, Hakka and more, above, below or beside the characters.</p></div>
     <div class="card"><h3>Everywhere</h3><p>Finder's right-click menu, keyboard shortcuts, automatic clipboard conversion and watch folders.</p></div>
@@ -72,19 +71,31 @@ footer a, .sub a { color: inherit; }
 
 <section class="wrap">
   <h2>Learn as you read</h2>
-  <p class="sub">An offline dictionary with readings in Mandarin, Cantonese, Taiwanese and Hakka, a reader with the reading over every word, and flashcards.</p>
+  <p class="sub">An offline dictionary with readings in Mandarin, Cantonese, Taiwanese and Hakka, stroke order and example sentences, and a reader with the reading over every word.</p>
   <div class="two">
     <img src="images/dictionary.png" alt="Dictionary">
-    <img src="images/reader-zhuyin.png" alt="Reader with Zhuyin">
+    <img src="images/reader.png" alt="Reader with readings over every word">
+  </div>
+  <div class="grid" style="margin-top:18px">
+    <div class="card"><h3>Look up anywhere</h3><p>Press ⌃⌥⌘L and drag over Chinese anywhere on screen, even in pictures and videos.</p></div>
+    <div class="card"><h3>The Dictionary as a book</h3><p>Turn its pages, keep bookmarks and notes, and see how each character is built from its parts.</p></div>
+    <div class="card"><h3>Study List</h3><p>Flashcards with spaced repetition, stroke-by-stroke writing practice, and drills for listening, pinyin and tones toward a daily goal.</p></div>
   </div>
 </section>
 
 <section class="wrap">
+  <h2>In English, 繁體中文 or 简体中文</h2>
+  <p class="sub">The whole app, including Help, comes in three languages. Choose one in Settings › General.</p>
+  <img class="shot" src="images/study-traditional.png" alt="Study List, with the interface in Traditional Chinese">
+</section>
+
+<section class="wrap">
   <h2>On the web, too</h2>
-  <p class="sub">Chrome and Safari extensions convert pages with readings, show meanings on hover, and send words to your Study List.</p>
-  <div class="two">
-    <img src="images/chrome-readings.png" alt="Readings over a web page">
-    <img src="images/interface-traditional.png" alt="Interface in Traditional Chinese">
+  <p class="sub">Extensions for Safari and Chrome (also Brave, Edge, Arc and Vivaldi), working through TwinScript on your Mac.</p>
+  <div class="grid">
+    <div class="card"><h3>Convert pages</h3><p>To Traditional or Simplified, with or without the reading over every word.</p></div>
+    <div class="card"><h3>Meanings on hover</h3><p>Show the reading and meaning only when you point at a word, and underline words by learner level.</p></div>
+    <div class="card"><h3>Save words</h3><p>⌥-click a word to open it in TwinScript, or add it to your Study List.</p></div>
   </div>
 </section>
 
