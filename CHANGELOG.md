@@ -7,7 +7,7 @@
 - **A new layout.** Each page has a banner with its name and a picture of what it does; its options sit in the panel at the right; pages are cards, and empty pages say what to do step by step. New dropdowns in the app's own style.
 - **Pinyin sort names for music.** Music Tags writes the pinyin of Chinese titles, artists and albums into the sort fields (MP3, M4A, FLAC, Ogg), and can add them to songs in the Music app, so they list in alphabetical order.
 - **Reader.** A Vocabulary view lists the words above your level, to star one by one or all at once; readings can show over new words only.
-- **Home** (from 1.0.1): cards you can arrange and resize, a Log page, What's New, Watch Folders and Clipboard cards.
+- **A new Home.** Cards you can arrange and resize, a Log page, What's New, Watch Folders and Clipboard cards.
 - Fixes: Chrome long pages, lyrics search for mainland sources, OpenCC corrections, Zhuyin search in the Dictionary, and more.
 - Chinese interface updated for everything new.
 
