@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2 (November 2026)
+
+- **Look up text on screen.** Press ⌃⌥⌘L (or use the menu-bar icon or ⌘K) and drag over Chinese anywhere on screen, even in pictures, videos and apps that won't let you select it. The words are listed with readings and meanings, to open in the Dictionary, star or read in the Reader. Needs Screen Recording permission the first time.
+- **Character parts.** Each character's entry shows how it's built, as a tree of its parts with their meanings, and other characters that share each part.
+- **Notes and bookmarks.** Write a note on any word (marked ✎ in the book); bookmark pages of the book with its ribbon, listed in the panel and on the contents page.
+- **Study.** A daily goal with today's count and days in a row; three quick drills: Listening, Type the Pinyin and Tones.
+- **Find Lyrics plays along.** Play lights each line as it's sung; nudge the timing earlier or later; optionally add a reading line under each line of the synced copy.
+- **Convert.** Changed characters are highlighted; a character choice can apply to every document in the list.
+- **Rename.** Name styles for romanized names: no tones, hyphens, capitals joined or underscores.
+- **Music Tags.** Tags garbled from GBK or Big5 are repaired before converting.
+- Help updated for 1.1 and 1.2, in English and Chinese.
+
 ## 1.1 (November 2026)
 
 - **The Dictionary as a book.** Browse CC-CEDICT page by page, arranged by pinyin or by Kangxi radical, with guide words, page numbers, thumb tabs, a contents page, a guide (凡例) and syllable and radical indexes. Type a word to turn to its page; click a word to open its full entry on the same paper.

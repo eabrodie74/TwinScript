@@ -42,22 +42,25 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - **⌘Z undoes a rename** and ⇧⌘Z redoes it, including renames made from Finder's right-click menu.
 - **Renaming back from Pinyin** gives the characters back: TwinScript remembers them on the file.
 - Repairs names garbled by old Windows systems (Big5 or GBK shown as accented Latin letters).
+- **Name styles** for romanized names: with or without tones, hyphens, capitals joined (QingTian) or underscores.
 
 ### Music
 - Converts titles, artists, albums and lyrics inside **MP3, M4A, FLAC, APE and Ogg** files; the sound isn't touched.
 - Converts songs in your **Apple Music library**: the selected ones or all of them, after showing how many will change.
-- **Find Lyrics** searches six sources and saves plain lyrics into the song, plus an optional line- or word-synced copy.
+- **Pinyin sort names** so Music lists Chinese songs, artists and albums in alphabetical order.
+- **Repairs garbled tags** saved by old Chinese software in GBK or Big5.
+- **Find Lyrics** searches six sources and saves plain lyrics into the song, plus an optional line- or word-synced copy. Play the song to see the lyrics follow along, nudge the timing, and add a reading line under each line for karaoke.
 
 ### Learn
 <img src="docs/images/dictionary.png" alt="Dictionary">
 
-- **Dictionary:** CC-CEDICT, Wiktionary, the Ministry of Education's Revised Mandarin Dictionary and idioms, CC-Canto, NAER technical terms, Wikipedia names and Wikidata. Readings in Mandarin, Cantonese, Taiwanese and Hakka, with sound. Stroke-order animation, example sentences, how each character is built, and filters by radical, strokes and HSK, TOCFL or TBCL level. Draw a character, or pick its parts, to find it.
-- **Look up anywhere:** select Chinese in any app and choose **Services › Look Up in TwinScript**, or ⌥-click a word in a TwinScript preview.
+- **Dictionary:** CC-CEDICT, Wiktionary, the Ministry of Education's Revised Mandarin Dictionary and idioms, CC-Canto, NAER technical terms, Wikipedia names and Wikidata. Readings in Mandarin, Cantonese, Taiwanese and Hakka, with sound. Stroke-order animation, example sentences, how each character is built, and filters by radical, strokes and HSK, TOCFL or TBCL level. Draw a character, or pick its parts, to find it. Browse it **as a book**, page by page, with bookmarks; see each character's **parts** as a tree; keep **notes** on any word.
+- **Look up anywhere:** press ⌃⌥⌘L and drag over Chinese anywhere on screen, even in pictures and videos; or select Chinese in any app and choose **Services › Look Up in TwinScript**, or ⌥-click a word in a TwinScript preview.
 - **Reader:** paste or open any text to see the reading over every word (Zhuyin goes beside each character, the Taiwanese way). Hover for the meaning, underline words by learner level, read it aloud, and save it as a PDF.
 
 <img src="docs/images/reader-zhuyin.png" alt="Reader with Zhuyin">
 
-- **Study List:** star words anywhere. Review them as flashcards with spaced repetition, practise writing them stroke by stroke, or export them to Anki.
+- **Study List:** star words anywhere. Review them as flashcards with spaced repetition, practise writing them stroke by stroke, drill listening, pinyin and tones toward a daily goal, or export them to Anki.
 
 ### Everywhere else
 - **Finder right-click menu:** convert documents, rename items and convert song tags without opening a window.
@@ -69,7 +72,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 
 ## Install
 
-1. Download **TwinScript-1.1.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
+1. Download **TwinScript-1.2.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
 2. Open it and follow the installer. It's signed and notarized by Apple, so macOS opens it without warnings.
    - Under **Customize** you can untick **Fonts for rare characters**: Jigmo and Plangothic, about 100 MB, installed into `/Library/Fonts` so every app on your Mac can show characters macOS has no font for. TwinScript itself works without them.
 3. Open **TwinScript** from Applications. A short welcome tour shows the main features. You can open it again any time from **Help › Welcome Tour**.

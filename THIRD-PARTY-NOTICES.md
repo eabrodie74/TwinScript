@@ -5,7 +5,7 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 | Source | What TwinScript uses it for | License |
 |---|---|---|
 | [OpenCC dictionaries](https://github.com/BYVoid/OpenCC) | Simplified ↔ Traditional | Apache 2.0 |
-| [Wikipedia regional term lists](https://zh.wikipedia.org) | Taiwan / Hong Kong names and terms | CC BY-SA 4.0 |
+| [Wikipedia regional term lists](https://zh.wikipedia.org) | Taiwan, Hong Kong, Macau, Singapore and Malaysia names and terms, and Chinese Wikipedia's regional conversion tables | CC BY-SA 4.0 |
 | [jieba word frequencies](https://github.com/fxsjy/jieba) | Word boundaries | MIT |
 | [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | Mandarin readings, English meanings, word fixes | CC BY-SA 4.0 |
 | [Wiktionary (Chinese)](https://kaikki.org/dictionary/Chinese/) | English meanings for words CC-CEDICT doesn't have, including Cantonese | CC BY-SA 4.0 |
