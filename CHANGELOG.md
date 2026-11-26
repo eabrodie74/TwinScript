@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3 (November 2026)
+
+- **Study › Progress.** Your words, how many you know well, reviews and days studied; a calendar of the last six months shaded by how close each day came to your goal; how your list has grown; and your most-missed words, a click away from the Dictionary.
+- **Web pages and EPUB books in the Reader.** Open Web Page… reads just a page's article (the address you copied is filled in). EPUB books open a chapter at a time, with a chapter menu and Previous/Next Chapter.
+- **Better example sentences.** The word is marked in each example; six show at first, with More examples for the rest; Read opens a sentence in the Reader; Study's review cards show an example under the answer.
+- **Sync between your Macs** (Settings › General). Your Study List and progress, notes, bookmarks, study days and word lists, through a TwinScript folder in iCloud Drive or any folder you choose. Each Mac writes only its own file, so two Macs never overwrite each other.
+- **A new icon:** a pair of mandarin ducks (鴛鴦), one ivory and one red. The About window is simpler, with a larger icon.
+- **Regional words.** Film, TV, game and music titles from Wikipedia's lists no longer replace everyday words (第一章 stayed 第一章, not a game title); about 2,000 such rules removed.
+- **Chrome and Safari.** More room between lines and between syllables when readings are shown; with Zhuyin, learner-level underlines now show, line up and clear the symbols.
+- Fixes: the review card's count is translated; Help covers everything new, in English and Chinese.
+
 ## 1.2 (November 2026)
 
 - **Look up text on screen.** Press ⌃⌥⌘L (or use the menu-bar icon or ⌘K) and drag over Chinese anywhere on screen, even in pictures, videos and apps that won't let you select it. The words are listed with readings and meanings, to open in the Dictionary, star or read in the Reader. Needs Screen Recording permission the first time.
