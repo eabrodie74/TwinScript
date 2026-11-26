@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/icon.png" width="128" alt="TwinScript icon"></p>
+<p align="center"><img src="docs/images/app-icon.png" width="128" alt="TwinScript icon"></p>
 
 <h1 align="center">TwinScript</h1>
 
@@ -9,7 +9,7 @@
   &nbsp;·&nbsp; free &nbsp;·&nbsp; macOS 12 or later &nbsp;·&nbsp; Apple silicon &nbsp;·&nbsp; signed and notarized by Apple
 </p>
 
-![TwinScript Home](docs/images/home.png)
+![TwinScript Home](docs/images/home-screen.png)
 
 TwinScript converts Chinese between Traditional and Simplified, and writes it in Pinyin, Zhuyin, Jyutping, Tâi-lô, Hakka and seven other romanizations. It works on documents (keeping their formatting), file and folder names, song tags and lyrics, the clipboard, web pages in Chrome and Safari, and pictures. It also has an offline Chinese–English dictionary, a reader that puts the reading over every word, and a study list with flashcards and drills.
 
@@ -56,13 +56,13 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - **Find Lyrics** searches six sources and saves plain lyrics into the song, plus an optional line- or word-synced copy. Play the song to see the lyrics follow along, nudge the timing, and add a reading line under each line for karaoke.
 
 ### Learn
-<img src="docs/images/dictionary.png" alt="Dictionary">
+<img src="docs/images/dictionary-page.png" alt="Dictionary">
 
 - **Dictionary:** CC-CEDICT, Wiktionary, the Ministry of Education's Revised Mandarin Dictionary and idioms, CC-Canto, NAER technical terms, Wikipedia names and Wikidata. Readings in Mandarin, Cantonese, Taiwanese and Hakka, with sound. Stroke-order animation, example sentences, how each character is built, and filters by radical, strokes and HSK, TOCFL or TBCL level. Draw a character, or pick its parts, to find it. Browse it **as a book**, page by page, with bookmarks; see each character's **parts** as a tree; keep **notes** on any word.
 - **Look up anywhere:** press ⌃⌥⌘L and drag over Chinese anywhere on screen, even in pictures and videos; or select Chinese in any app and choose **Services › Look Up in TwinScript**, or ⌥-click a word in a TwinScript preview.
 - **Reader:** paste or open any text to see the reading over every word (Zhuyin goes beside each character, the Taiwanese way). Hover for the meaning, underline words by learner level, read it aloud, and save it as a PDF.
 
-<img src="docs/images/reader.png" alt="Reader with readings over every word">
+<img src="docs/images/reader-page.png" alt="Reader with readings over every word">
 
 - **Study List:** star words anywhere. Review them as flashcards with spaced repetition, practise writing them stroke by stroke, drill listening, pinyin and tones toward a daily goal, or export them to Anki.
 
@@ -72,7 +72,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - **Watch folders:** new files that land in a folder are converted on their own.
 - **Interface in English, 繁體中文 or 简体中文** (Settings › General).
 
-<img src="docs/images/study-traditional.png" alt="Study List, with the interface in Traditional Chinese">
+<img src="docs/images/study-page-traditional.png" alt="Study List, with the interface in Traditional Chinese">
 
 ## Install
 
