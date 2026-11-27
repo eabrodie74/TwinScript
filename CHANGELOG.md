@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.1 (November 2026)
+
+- **Hakka readings checked against the Hakka Affairs Council's and Ministry of Education's data** (through FormoSpeech's FormoG2P lexicon): common characters read their usual way (人 *ngin*, 看 *kon*, 地 *ti*, 好 *ho*, 會 *voi*), about 760 readings fixed, and about 75,000 words added that used to be read character by character.
+- **Cantonese readings follow Hong Kong usage as recorded by words.hk:** about 1,070 fixed (度過 *dou6*, 遇到 *jyu6 dou3*, 少量 *siu2 loeng6*) and 7,400 colloquial words added. A Cantonese entry whose CC-Canto reading differs shows the reading spoken, with CC-Canto's beside it.
+- **The experimental Hakka voice** says the corrected readings and covers 90,649 words (about 500 MB) (download it again in Settings › Speech).
+- **With Taiwan's Mandarin**, search results show Taiwan's readings too (研究 *yánjiù*).
+- Help names the new reading sources.
+
 ## 1.4 (November 2026)
 
 - **English–Chinese.** Look up an English word to see its meanings, each with the words used in Mandarin, Cantonese, Taiwanese and Hakka, with readings and sound (about 50,000 English words from Wiktionary). Search by sound in any language (*sik6 faan6*, *tsia̍h-pn̄g*) or by pattern (天?地?), with a scope beside the search box.

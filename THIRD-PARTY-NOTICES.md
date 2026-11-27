@@ -18,8 +18,10 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 | [Wikidata](https://www.wikidata.org) | Things named with a word: what they are, descriptions, and names in each region; Chinese lexemes (needs internet) | CC0 |
 | [Unicode Han Database (Unihan)](https://www.unicode.org) | Character readings, variants, frequencies | Unicode License |
 | [rime-cantonese](https://github.com/rime/rime-cantonese) | Cantonese readings | CC BY 4.0 |
+| [words.hk 粵典](https://words.hk) word list | Cantonese readings as said in Hong Kong | Public domain |
 | [iTaigi · 台文華文線頂辭典 · 甘字典 (ChhoeTaigi)](https://github.com/ChhoeTaigi/ChhoeTaigiDatabase) | Taiwanese readings | CC0 · CC BY-SA 4.0 · CC BY-NC-SA 3.0 TW |
 | [Hakka Sixian dictionary (Otoya)](https://github.com/kyootoya/hakka-sixian-rime) | Hakka readings, from Hakka Affairs Council and Ministry of Education data | CC BY 4.0 |
+| [FormoG2P](https://github.com/FormoSpeech/FormoG2P) (FormoSpeech) | Hakka readings (about 90,000 Sixian words, from Hakka Affairs Council and Ministry of Education data) | Apache 2.0 |
 | [Fonts for rare characters](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | Plangothic (sans, SIL OFL) and Jigmo (Ming serif, CC0): every CJK character, Extensions B–J, so nothing shows as a box | SIL OFL 1.1 · CC0 |
 | [Make Me a Hanzi stroke data](https://github.com/skishore/makemeahanzi) | Stroke-order animations (via Hanzi Writer, MIT) | Arphic Public License |
 | [HSK word lists](https://github.com/drkameleon/complete-hsk-vocabulary) | HSK 2.0 and 3.0 levels (complete-hsk-vocabulary) | MIT |
