@@ -10,7 +10,9 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 | [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | Mandarin readings, English meanings, word fixes | CC BY-SA 4.0 |
 | [Wiktionary (Chinese)](https://kaikki.org/dictionary/Chinese/) | English meanings for words CC-CEDICT doesn't have, including Cantonese | CC BY-SA 4.0 |
 | [Taiwan academic terms (NAER 樂詞網)](https://terms.naer.edu.tw) | Technical terms in 100+ fields (computing, engineering, medicine, law…), Chinese–English | Free reuse with credit (Taiwan open government data) |
-| [Ministry of Education dictionaries](https://language.moe.gov.tw) | Revised Mandarin Chinese Dictionary and Dictionary of Chinese Idioms | CC BY-ND 3.0 TW |
+| [Ministry of Education dictionaries](https://language.moe.gov.tw) | Revised Mandarin Chinese Dictionary and Dictionary of Chinese Idioms; Taiwan's standard Mandarin readings | CC BY-ND 3.0 TW |
+| [Wiktionary (English)](https://kaikki.org/dictionary/English/) | English–Chinese: English words with their Mandarin, Cantonese, Taiwanese and Hakka translations | CC BY-SA 4.0 |
+| [臺灣台語常用詞辭典 (Ministry of Education)](https://sutian.moe.edu.tw) | Taiwanese readings, and recordings of words and phrases (downloaded only when you choose; played as published) | CC BY-ND 3.0 TW |
 | [CC-Canto](https://cantonese.org) | Cantonese–English words, and Cantonese readings for CC-CEDICT | CC BY-SA 3.0 |
 | [Wikipedia names](https://zh.wikipedia.org) | Names of people, places, species, organizations and works, Chinese ↔ English | CC BY-SA 4.0 |
 | [Wikidata](https://www.wikidata.org) | Things named with a word: what they are, descriptions, and names in each region; Chinese lexemes (needs internet) | CC0 |
@@ -26,6 +28,7 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 | [HanziLookup and Make Me a Hanzi parts](https://github.com/gugray/HanziLookupJS) | Find a character by drawing it or by its parts; how characters are built (meaning and sound parts) | GPL 3 (HanziLookup) · Arphic Public License (data) |
 | [Mozilla Common Voice](https://commonvoice.mozilla.org) sentences | Words learned from real Taiwan and Hong Kong sentences | CC0 |
 | [Hanzi Writer](https://hanziwriter.org) | Stroke-order animation and writing practice | MIT |
+| [VoxHakka](https://voxhakka.github.io) (FormoSpeech) | Experimental Hakka voice, generated in advance from TwinScript's readings (optional, when available); with [FormoG2P](https://github.com/FormoSpeech/FormoG2P) (Apache 2.0) | CC BY-NC 4.0 (non-commercial) |
 | [Jigmo](https://kamichikoichi.github.io/jigmo/) and [Plangothic](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | Fonts for rare characters (optional install) | CC0 · SIL Open Font License 1.1 |
 
 **Notes**

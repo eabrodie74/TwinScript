@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4 (November 2026)
+
+- **English–Chinese.** Look up an English word to see its meanings, each with the words used in Mandarin, Cantonese, Taiwanese and Hakka, with readings and sound (about 50,000 English words from Wiktionary). Search by sound in any language (*sik6 faan6*, *tsia̍h-pn̄g*) or by pattern (天?地?), with a scope beside the search box.
+- **The book in six arrangements:** Chinese–English by pinyin, radical, Zhuyin or strokes; Cantonese–English by Jyutping; English–Chinese from A to Z, each with its own title page, guide and indexes.
+- **Taiwanese recordings.** The Ministry of Education's recordings of 22,298 words and 787 phrases (臺灣台語常用詞辭典) play from your Mac, and only the recording of the reading shown. Words without one are assembled from recorded syllables, each in the tone it takes in the word, and labelled so.
+- **The voices say what TwinScript shows.** Mandarin and Cantonese voices no longer guess characters with several readings (銀行 is never yín xíng). A missing voice offers to download one instead of reading with the wrong voice. **Settings › Speech** chooses each language's voice, speeds and downloads.
+- **Taiwan's or the mainland's Mandarin.** Where they differ (研究 yánjiù / yánjiū, 星期 xīngqí / xīngqī, 學生 xuéshēng / xuésheng), readings, Zhuyin and voices follow your region or your choice (Settings › Romanization). 27 words that read the rarer meaning are fixed in both (結果 jiéguǒ, 重點 zhòngdiǎn).
+- **Taiwanese readings follow the Ministry's dictionary:** about 1,900 corrected and 7,500 added; tone changes for -p/-t/-k/-h syllables fixed.
+- **Example sentences:** the right recording plays (it sometimes played another sentence's), at once and only for your latest click, kept after the first play, and slower if you like.
+- Fixes: characters search in every scope; the window comes forward when opened from a full-screen app; Chrome, Safari and Quick Look follow the reading settings.
+
 ## 1.3 (November 2026)
 
 - **Study › Progress.** Your words, how many you know well, reviews and days studied; a calendar of the last six months shaded by how close each day came to your goal; how your list has grown; and your most-missed words, a click away from the Dictionary.
