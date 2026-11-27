@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.2 (November 2026)
+
+- **Correct a reading yourself.** If TwinScript reads a word wrongly, click ✎ beside its reading in the Dictionary and type the right one (Pinyin, Zhuyin, Jyutping, Tâi-lô or POJ, Hakka Pinyin). Only real syllables, one per character, are accepted, and you see how the word will read before saving. Your reading is used everywhere: converted text, the Dictionary, the Reader, the voices and the Chrome and Safari extensions. Mandarin corrections can be for both standards or only Taiwan's or the mainland's. All of them are listed in Settings › Romanization and sync between your Macs.
+- **Mandarin readings fixed** where a dictionary's first reading was a rare one: about 50 learner words in each standard, including 便宜 *pián yi*, 還錢 *huán qián*, 看著 *kàn zhe*, 甚麼 *shén me*, 都會 *dōu huì*, 好處 *hǎo chù*, 中式 *zhōng shì*, and 妳 *nǐ*, 乾 *gān*. With Taiwan's standard, 只 is *zhǐ* again, and 玩 and 术 read *wán* and *shù* in Simplified text. The voices follow.
+- **A new menu bar icon:** the two ducks.
+- Settings and Log have page banners like the other pages.
+
 ## 1.4.1 (November 2026)
 
 - **Hakka readings checked against the Hakka Affairs Council's and Ministry of Education's data** (through FormoSpeech's FormoG2P lexicon): common characters read their usual way (人 *ngin*, 看 *kon*, 地 *ti*, 好 *ho*, 會 *voi*), about 760 readings fixed, and about 75,000 words added that used to be read character by character.
