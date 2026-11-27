@@ -22,6 +22,8 @@ TwinScript uses the following data, fonts and libraries. Thank you to everyone w
 | [iTaigi · 台文華文線頂辭典 · 甘字典 (ChhoeTaigi)](https://github.com/ChhoeTaigi/ChhoeTaigiDatabase) | Taiwanese readings | CC0 · CC BY-SA 4.0 · CC BY-NC-SA 3.0 TW |
 | [Hakka Sixian dictionary (Otoya)](https://github.com/kyootoya/hakka-sixian-rime) | Hakka readings, from Hakka Affairs Council and Ministry of Education data | CC BY 4.0 |
 | [FormoG2P](https://github.com/FormoSpeech/FormoG2P) (FormoSpeech) | Hakka readings (about 90,000 Sixian words, from Hakka Affairs Council and Ministry of Education data) | Apache 2.0 |
+| [客語能力認證詞彙](https://elearning.hakka.gov.tw) (Hakka Affairs Council) | Hakka word readings (the certification word lists, Sixian, about 5,200 words), first over the others | Open Government Data License Taiwan 1.0 |
+| [客語能力認證 recordings](https://elearning.hakka.gov.tw) (Hakka Affairs Council) | Hakka recordings: 4,834 recordings of 4,303 words, one per word, cut from the certification recordings (optional download) | Open Government Data License Taiwan 1.0 |
 | [Fonts for rare characters](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | Plangothic (sans, SIL OFL) and Jigmo (Ming serif, CC0): every CJK character, Extensions B–J, so nothing shows as a box | SIL OFL 1.1 · CC0 |
 | [Make Me a Hanzi stroke data](https://github.com/skishore/makemeahanzi) | Stroke-order animations (via Hanzi Writer, MIT) | Arphic Public License |
 | [HSK word lists](https://github.com/drkameleon/complete-hsk-vocabulary) | HSK 2.0 and 3.0 levels (complete-hsk-vocabulary) | MIT |

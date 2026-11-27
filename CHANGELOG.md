@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.4.4 (November 2026)
+
+- **Readings checked against expert answer keys in every language**, each change measured on material it wasn't chosen from, and every changed reading rechecked across 67,000 Mandarin sentences so nothing else breaks.
+  - **Taiwanese**, against the Ministry of Education's 17,889 example sentences: characters differing from the editors' readings fell from 9,533 to 3,373 of 164,009. Characters on their own read as the editors read them (就 *tō*, 會 *ē*, 共 *kā*, 才 *tsiah*), and by the words around them: 傷大 *siunn tuā* "too big", 錢通買 *thang*, 蹛遮 *tsia* "here" but 遮大 *tsiah* "so big", 你敢袂去？ *kám*, 加真濟 *ke*, 上驚 *siōng*. Fixed: 大人 *tuā-lâng*, 所有 *sóo-ū*, 一百 *tsi̍t-pah*, 阮 *guán*. Mandarin words the Taiwanese dictionaries lack read in the right sense (經濟學家 *ka*, 混合物 *bu̍t*, 照相機 *siòng*).
+  - **Hakka**, against the Hakka Affairs Council's certification word lists (客語能力認證, about 5,200 words read by its editors), which now come first: differences fell from 540 words to 71. 仔 after the falling tone is *eˇ* (狗仔 *gieuˋ eˇ*), and words in sentences are found more carefully (有意思, 臺北市長).
+  - **Cantonese**, against HKCanCor (154,000 words of transcribed speech): characters on their own read as people say them where words.hk agrees (返 *faan1*, 驚 *geng1*, 位 *wai2*, 黑 *haak1*); 咪 is *mai6* "then", *mai1* "mile" (五十咪) or *mai5* "don't" (咪玩啦！); 吓 *haa2* "huh?"; 行長 *hong4 zoeng2*.
+  - **Mandarin**, against the CPP benchmark (20,000 hand-labelled sentences): 91.0% → 94.2% on the hardest characters (翟 *Zhái*, 幢 *zhuàng*, 卜 *bǔ*, 茄 *qié*, 尽 *jìn*); 长 *zhǎng* in 长什么样, 市长; 为 *wéi* in 选为, 以…为. With Taiwan's standard: 唇 *chún*, 暖暖 *nuǎn*, 沒了 *méi*, 尺寸 *chǐ*.
+- **Hakka recordings.** 4,834 recordings of 4,303 words from the Hakka Affairs Council's certification exams play from your Mac wherever the reading shown is the one recorded (Settings › Speech, 75 MB). The experimental Hakka voice now covers 90,742 words, with the corrected readings.
+- **Simplified text plays the recordings too:** 告诉 plays the Ministry's recording of 告訴.
+- **Reading corrections can be kept to the word on its own:** tick *Leave longer phrases alone*, and 銀行家 keeps its own reading while 銀行 takes yours.
+- **Fixed readings stay fixed:** 5,500 checked readings in all four languages are tested at every build and after every data update.
+
 ## 1.4.3 (November 2026)
 
 - **Readings checked against 66,000 example sentences.** TwinScript now finds words more carefully, so a rare dictionary word no longer swallows the start of the next one: 冷靜地處理 is *de chǔlǐ* (not 地處 *dìchǔ*), 他的姐姐 *de jiějie* (not 的姐 "taxi driver"), 手中的 *zhōng de*, 說中文 *zhōngwén*, 沒有人相信 *xiāngxìn*. About 1,000 readings in those sentences changed, reviewed by hand group by group; a few rare phrases now read worse (闭着眼 reads 着 as *zhuó*).
