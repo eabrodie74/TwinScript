@@ -1,0 +1,40 @@
+name: Missing word
+description: A word TwinScript doesn't know, reads character by character, or has no meaning for
+title: "Word: "
+labels: ["word"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Words are checked against the standard dictionaries before they're added, and you'll get a reply either way.
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      placeholder: 捷運
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Mandarin, Cantonese, Taiwanese or Hakka (Sixian)
+    validations:
+      required: true
+  - type: input
+    id: reading
+    attributes:
+      label: Reading
+      placeholder: jié yùn
+  - type: input
+    id: meaning
+    attributes:
+      label: Meaning in English
+      placeholder: mass rapid transit, the metro (Taiwan)
+  - type: textarea
+    id: source
+    attributes:
+      label: Where it's used, and how you know
+  - type: input
+    id: version
+    attributes:
+      label: TwinScript version

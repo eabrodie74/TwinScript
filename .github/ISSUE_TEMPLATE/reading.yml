@@ -1,0 +1,53 @@
+name: Wrong reading
+description: TwinScript reads a word or character wrongly (Mandarin, Cantonese, Taiwanese or Hakka)
+title: "Reading: "
+labels: ["reading"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every report is checked against the standard dictionaries and example sentences before anything changes, and you'll get a reply either way: fixed in which data update, or why TwinScript keeps its reading.
+        If you came here from TwinScript's correction dialog, the fields below are already filled in: check them and press **Submit new issue**.
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      description: The characters, as they appeared.
+      placeholder: 便宜
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Mandarin (Taiwan's standard), Mandarin (the mainland's), Mandarin (both), Cantonese, Taiwanese or Hakka (Sixian)
+      placeholder: Mandarin (both)
+    validations:
+      required: true
+  - type: input
+    id: shown
+    attributes:
+      label: TwinScript's reading
+      placeholder: biàn yí
+  - type: input
+    id: correct
+    attributes:
+      label: The right reading
+      placeholder: pián yi
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Where you saw it
+      description: The sentence or phrase, if the word reads differently elsewhere (这个很便宜 — but 方便 is fine).
+  - type: textarea
+    id: source
+    attributes:
+      label: How you know
+      description: A dictionary (which one), your own speech (which region), a teacher… This helps decide quickly; regional readings are welcome, say where they're used.
+  - type: input
+    id: version
+    attributes:
+      label: TwinScript version
+      placeholder: "1.4.4 (191)"

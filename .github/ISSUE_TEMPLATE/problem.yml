@@ -1,0 +1,40 @@
+name: Problem
+description: Something in TwinScript doesn't work, or works wrongly
+title: "Problem: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Please don't include anything private (names, file contents, account details); a short example is enough.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      placeholder: |
+        1. Open the Dictionary
+        2. Search for 銀行
+        3. …
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: input
+    id: version
+    attributes:
+      label: TwinScript version
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: TwinScript's Log page lines from around the time, if they help. Check them for anything private first.
+      render: text
