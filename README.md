@@ -77,7 +77,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 
 ## Install
 
-1. Download **TwinScript-1.4.2.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
+1. Download **TwinScript-1.4.3.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
 2. Open it and follow the installer. It's signed and notarized by Apple, so macOS opens it without warnings.
    - Under **Customize** you can untick **Fonts for rare characters**: Jigmo and Plangothic, about 100 MB, installed into `/Library/Fonts` so every app on your Mac can show characters macOS has no font for. TwinScript itself works without them.
 3. Open **TwinScript** from Applications. A short welcome tour shows the main features. You can open it again any time from **Help › Welcome Tour**.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.3 (November 2026)
+
+- **Readings checked against 66,000 example sentences.** TwinScript now finds words more carefully, so a rare dictionary word no longer swallows the start of the next one: 冷靜地處理 is *de chǔlǐ* (not 地處 *dìchǔ*), 他的姐姐 *de jiějie* (not 的姐 "taxi driver"), 手中的 *zhōng de*, 說中文 *zhōngwén*, 沒有人相信 *xiāngxìn*. About 1,000 readings in those sentences changed, reviewed by hand group by group; a few rare phrases now read worse (闭着眼 reads 着 as *zhuó*).
+- **More readings fixed:** 到了 *dào le* (it said *dào liǎo*), 受不了 *bù liǎo*, 們 *men*, 築 *zhù* (Taiwan's standard: *zhú*), 削 *xiāo*, 睡了一覺 *jiào*, 下載 *xiàzài*, 狗狗, 咖哩; with Taiwan's standard, 它們 is *tā men*. Text that's already Traditional is no longer misread through a second conversion (發明了 *le*, not *liào*).
+- **Reading corrections show their side effects:** before you save one, the dialog lists the example sentences that would read differently.
+- **Correct a reading from the Reader, Chrome or Safari:** right-click a word.
+
 ## 1.4.2 (November 2026)
 
 - **Correct a reading yourself.** If TwinScript reads a word wrongly, click ✎ beside its reading in the Dictionary and type the right one (Pinyin, Zhuyin, Jyutping, Tâi-lô or POJ, Hakka Pinyin). Only real syllables, one per character, are accepted, and you see how the word will read before saving. Your reading is used everywhere: converted text, the Dictionary, the Reader, the voices and the Chrome and Safari extensions. Mandarin corrections can be for both standards or only Taiwan's or the mainland's. All of them are listed in Settings › Romanization and sync between your Macs.
