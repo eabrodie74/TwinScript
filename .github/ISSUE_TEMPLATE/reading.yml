@@ -16,14 +16,42 @@ body:
       placeholder: 便宜
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: language
     attributes:
       label: Language
-      description: Mandarin (Taiwan's standard), Mandarin (the mainland's), Mandarin (both), Cantonese, Taiwanese or Hakka (Sixian)
-      placeholder: Mandarin (both)
+      options:
+        - Mandarin (both)
+        - Mandarin (Taiwan's standard)
+        - Mandarin (the mainland's)
+        - Cantonese
+        - Taiwanese
+        - Hakka (Sixian)
+        - Hakka (Hailu)
+        - Hakka (another accent)
     validations:
       required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong
+      options:
+        - The reading shown (a syllable or tone)
+        - How it's said when spoken (the tone changes)
+        - The audio that plays
+        - No audio plays
+        - Something else (say below)
+    validations:
+      required: true
+  - type: dropdown
+    id: unit
+    attributes:
+      label: It's about
+      options:
+        - A character
+        - A word
+        - A phrase or idiom
+        - A sentence
   - type: input
     id: shown
     attributes:
@@ -33,9 +61,8 @@ body:
     id: correct
     attributes:
       label: The right reading
+      description: Leave empty if the reading is right and only the audio is wrong.
       placeholder: pián yi
-    validations:
-      required: true
   - type: textarea
     id: context
     attributes:

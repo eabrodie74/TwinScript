@@ -13,13 +13,30 @@ body:
       placeholder: 捷運
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: language
     attributes:
       label: Language
-      description: Mandarin, Cantonese, Taiwanese or Hakka (Sixian)
+      options:
+        - Mandarin (both)
+        - Mandarin (Taiwan's standard)
+        - Mandarin (the mainland's)
+        - Cantonese
+        - Taiwanese
+        - Hakka (Sixian)
+        - Hakka (Hailu)
+        - Hakka (another accent)
     validations:
       required: true
+  - type: dropdown
+    id: unit
+    attributes:
+      label: It's about
+      options:
+        - A character
+        - A word
+        - A phrase or idiom
+        - A sentence
   - type: input
     id: reading
     attributes:
