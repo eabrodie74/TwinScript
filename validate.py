@@ -36,7 +36,12 @@ for name, a in (audio.items() if isinstance(audio, dict) else []):
     if a.get('scope') not in SCOPES: problems.append(f'{where}: scope must be one of {", ".join(SCOPES)}')
     if a.get('unit') not in ('character', 'word', 'phrase', 'sentence'): problems.append(f'{where}: unit must be character, word, phrase or sentence')
     if a.get('consent') is not True or a.get('license') != 'CC BY 4.0': problems.append(f'{where}: needs the speaker\'s consent and CC BY 4.0')
-    for f in ['text', 'reading', 'region', 'speaker']:
+    for f in ['text', 'reading', 'region', 'speaker', 'checked_by']:     # (checked_by: the second speaker who confirmed it)
         if not a.get(f): problems.append(f'{where}: "{f}" is missing')
+    who = lambda x: str(x or '').strip().lstrip('@').lower()
+    if who(a.get('checked_by')) in ('anonymous', 'anon', '-', '?'):
+        problems.append(f'{where}: the second speaker who checked it must be named')
+    elif a.get('checked_by') and who(a.get('checked_by')) == who(a.get('speaker')):
+        problems.append(f'{where}: checked by the speaker themself; another speaker has to check it')
 print('\n'.join(problems) if problems else f'OK: {len(readings)} readings, {len(audio)} recordings')
 sys.exit(1 if problems else 0)
