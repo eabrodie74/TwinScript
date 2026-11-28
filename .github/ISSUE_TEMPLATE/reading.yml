@@ -16,19 +16,12 @@ body:
       placeholder: 便宜
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: language
     attributes:
       label: Language
-      options:
-        - Mandarin (both)
-        - Mandarin (Taiwan's standard)
-        - Mandarin (the mainland's)
-        - Cantonese
-        - Taiwanese
-        - Hakka (Sixian)
-        - Hakka (Hailu)
-        - Hakka (another accent)
+      description: "Mandarin (both), Mandarin (Taiwan's standard), Mandarin (the mainland's), Cantonese, Taiwanese, Hakka (Sixian), Hakka (Hailu) or Hakka (another accent: say which)"
+      placeholder: Mandarin (both)
     validations:
       required: true
   - type: dropdown
