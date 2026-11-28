@@ -1,0 +1,67 @@
+name: Recording
+description: A recording you made of a word, phrase or sentence (TwinScript's Help ▸ Record a Word…, or Record It…)
+title: "Recording: "
+labels: ["audio"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Attach the .zip TwinScript made (it showed it in Finder) in the box below. Another speaker of the language listens to each recording before it's added; then TwinScript plays it for everyone who looks the word up, labelled as a contributed recording with where the speaker is from.
+  - type: input
+    id: text
+    attributes:
+      label: Said
+      placeholder: 銀行
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: Taiwanese
+    validations:
+      required: true
+  - type: dropdown
+    id: unit
+    attributes:
+      label: It's
+      options:
+        - A character
+        - A word
+        - A phrase or idiom
+        - A sentence
+  - type: input
+    id: reading
+    attributes:
+      label: Reading
+      placeholder: gîn-hâng
+  - type: input
+    id: region
+    attributes:
+      label: Where the speaker is from
+      placeholder: Tâi-pak
+    validations:
+      required: true
+  - type: input
+    id: speaker
+    attributes:
+      label: Credit as
+      description: A name or GitHub login, or "anonymous"
+  - type: textarea
+    id: file
+    attributes:
+      label: Recording
+      description: Drag the .zip here.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: I'm the speaker, and I agree to publish this recording under CC BY 4.0, so TwinScript and anyone else may use it, crediting me as above.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: TwinScript version
