@@ -22,6 +22,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 - [Dictionary extras](#dictionary-extras)
 - [Updates](#updates)
 - [Privacy](#privacy)
+- [Help improve the readings](#help-improve-the-readings)
 - [Uninstall](#uninstall)
 - [Troubleshooting](#troubleshooting)
 - [Credits and licenses](#credits-and-licenses)
@@ -77,7 +78,7 @@ TwinScript converts Chinese between Traditional and Simplified, and writes it in
 
 ## Install
 
-1. Download **TwinScript-1.4.4.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
+1. Download **TwinScript-1.4.5.pkg** from the [latest release](https://github.com/eabrodie74/TwinScript/releases/latest).
 2. Open it and follow the installer. It's signed and notarized by Apple, so macOS opens it without warnings.
    - Under **Customize** you can untick **Fonts for rare characters**: Jigmo and Plangothic, about 100 MB, installed into `/Library/Fonts` so every app on your Mac can show characters macOS has no font for. TwinScript itself works without them.
 3. Open **TwinScript** from Applications. A short welcome tour shows the main features. You can open it again any time from **Help › Welcome Tour**.
@@ -126,8 +127,18 @@ TwinScript checks this repository's releases once a day and offers new versions.
 ## Privacy
 
 - Conversion, romanization, OCR and the dictionary all run **on your Mac**. Your documents and text are never uploaded.
-- TwinScript only goes online when you ask it to: lyric searches (the song's title and artist go to the lyric sites), Wikidata lookups, Taiwanese pronunciation audio, plugin downloads and update checks.
+- TwinScript goes online only for these: lyric searches (the song's title and artist go to the lyric sites), Wikidata lookups, Taiwanese pronunciation audio, plugin downloads, update checks, and once a day the list of new checked recordings from the [language-data branch](https://github.com/eabrodie74/TwinScript/tree/language-data) (nothing about you is sent; turn it off in Settings › Speech › Play contributed recordings). Reports and recordings you send go only where you send them, after you've checked them.
 - No accounts, no analytics, no tracking.
+
+## Help improve the readings
+
+TwinScript's readings are checked against the standard dictionaries and expert-read example sentences in all four languages, but no source is perfect, and speakers know best. Every report is checked before anything changes, and you get a reply either way.
+
+- **A wrong reading:** correct it with ✎ and leave **Also send it to TwinScript** ticked, or choose **Help › Report a Wrong Reading…**. It opens a [report](https://github.com/eabrodie74/TwinScript/issues/new/choose) filled in, for you to check and send, on GitHub (a free account) or by email (no account).
+- **A missing word:** **Help › Suggest a Word…**.
+- **A recording:** where TwinScript has no real recording of a Taiwanese, Hakka, Cantonese or Mandarin word, record it yourself: **Record It…** when TwinScript says there's no recording, or **Help › Record a Word…**. Another speaker of the language checks each one before it plays for everyone, credited as you choose.
+
+Accepted readings and recordings are published in the [language-data branch](https://github.com/eabrodie74/TwinScript/tree/language-data) under CC BY 4.0, with the contributors' names.
 
 ## Uninstall
 

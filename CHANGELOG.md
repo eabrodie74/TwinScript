@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.5 (November 2026)
+
+- **Report a wrong reading, a missing word or a problem** from inside TwinScript. When you correct a reading with ✎, leave **Also send it to TwinScript** ticked; or use **Help › Report a Wrong Reading…**, **Suggest a Word…** or **Report a Problem…**. It opens a report already filled in, for you to check and send: on GitHub (a free account) or by email (no account). Nothing is sent from TwinScript itself. Every report is checked against the standard dictionaries before anything changes, and you get a reply either way.
+- **Record a word TwinScript has no recording of:** **Record It…** where TwinScript says there's no recording, or **Help › Record a Word…**. Say it, play it back, say where you're from, and agree to publish it under CC BY 4.0. Another speaker of the language checks each recording; then it plays for everyone, labelled with who recorded it and where they're from (Settings › Speech › Play contributed recordings).
+- Accepted readings and recordings are published in the [language-data branch](https://github.com/eabrodie74/TwinScript/tree/language-data), with the contributors' names.
+- Recent Searches no longer lists punctuation looked up on its own.
+
 ## 1.4.4 (November 2026)
 
 - **Readings checked against expert answer keys in every language**, each change measured on material it wasn't chosen from, and every changed reading rechecked across 67,000 Mandarin sentences so nothing else breaks.
